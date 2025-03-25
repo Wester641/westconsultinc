@@ -88,7 +88,9 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fredoka+One&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fredoka+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
 .mean-container .mean-nav ul li > a.mean-expand i,
 .back-to-top-wrapper,
 a,
@@ -118,10 +120,13 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: "DM Sans", sans-serif;
+  /* --tp-ff-body: "DM Sans", sans-serif;
   --tp-ff-heading: "Fredoka One", cursive;
   --tp-ff-p: "DM Sans", sans-serif;
-  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  --tp-ff-fontawesome: "Font Awesome 6 Pro"; */
+  --tp-ff-body: "Montserrat", sans-serif;
+  --tp-ff-heading: "Montserrat", sans-serif;
+  --tp-ff-p: "Montserrat", sans-serif;
   /**
   @color declaration
   */
@@ -200,7 +205,7 @@ h6 {
   font-family: var(--tp-ff-heading);
   color: var(--tp-heading-primary);
   margin-top: 0px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2;
   -webkit-transition: color 0.3s 0s ease-out;
   -moz-transition: color 0.3s 0s ease-out;
