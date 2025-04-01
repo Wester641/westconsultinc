@@ -9,10 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
 
     const dataFromMainPage = {
-      name: form.querySelector('input[type="text"]').value,
+      full_name: form.querySelector('input[type="text"]').value,
       email: form.querySelector('input[type="email"]').value,
-      phone: form.querySelector('input[placeholder="Phone number"]').value,
-      message: form.querySelector('textarea[placeholder="Message"]').value,
+      phone_number: form.querySelector('input[placeholder="Phone number"]')
+        .value,
+      comments: form.querySelector('textarea[placeholder="Message"]').value,
     };
 
     console.log(dataFromMainPage);
@@ -49,3 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+// $name = $input['full name'];
+// $email = $input['email'];
+// $phone = $input['phone number'];
+// $comments = $input['comments'];
