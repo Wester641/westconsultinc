@@ -9,39 +9,38 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
 
     const dataFromContactPage = {
-      full_name: form.querySelector('input[type="text"]').value,
+      name: form.querySelector('input[type="text"]').value,
       email: form.querySelector('input[type="email"]').value,
-      phone_number: form.querySelector('input[placeholder="Phone number"]')
-        .value,
+      phone: form.querySelector('input[placeholder="Phone number"]').value,
       comments: form.querySelector('textarea[placeholder="Message"]').value,
     };
 
     console.log(dataFromContactPage);
 
-    // fetch("https://bektransgroup.com/backend/cpanel_mail.php", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(dataFromMainPage),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //     if (success_message) {
-    //       success_message.innerHTML = data.status;
-    //       success_message.className = "n-success";
-    //       setTimeout(() => {
-    //         success_message.innerHTML = null;
-    //         success_message.className = "";
-    //       }, 5000);
-    //     } else {
-    //       console.log(data.status);
-    //     }
-    //   })
-    //   .catch((error) => {
-    //     console.error(error);
-    //   });
+    fetch("https://thewestconsult.com/backend/email_server_2.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(dataFromContactPage),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        if (success_message) {
+          success_message.innerHTML = data.status;
+          success_message.className = "n-success";
+          setTimeout(() => {
+            success_message.innerHTML = null;
+            success_message.className = "";
+          }, 5000);
+        } else {
+          console.log(data.status);
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
 
     form.reset();
 
