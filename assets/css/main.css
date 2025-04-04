@@ -1271,6 +1271,9 @@ div.demo img {
 .btn-link-sm:hover {
   color: var(--tp-common-white);
 }
+.btn-hover:hover {
+  background-color: #fbd45b;
+}
 .btn-link-sm:hover::before {
   transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
   transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
