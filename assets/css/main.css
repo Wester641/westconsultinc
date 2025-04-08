@@ -5038,7 +5038,7 @@ button:focus:not(:focus-visible) {
 .tp-slider__angle-shape {
   height: 391px;
   width: 280px;
-  background: linear-gradient(to bottom, var(--tp-theme-1), #fbd403);
+  background: linear-gradient(to bottom, var(--tp-theme-1), var(--yellow));
   opacity: 0.7;
   position: absolute;
   bottom: 0;
@@ -6376,7 +6376,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   height: 300px;
   width: 300px;
-  background: linear-gradient(0deg, #efe018 0%, var(--tp-theme-1) 100%);
+  background: linear-gradient(0deg, var(--yellow) 0%, var(--tp-theme-1) 100%);
   bottom: -157px;
   right: -141px;
   border-radius: 50%;
@@ -6399,11 +6399,10 @@ button:focus:not(:focus-visible) {
 .tpfeature__content::before {
   bottom: -100%;
   right: -100%;
-  background: rgb(251, 212, 90);
   background: linear-gradient(
     90deg,
-    rgb(251, 212, 90) 0%,
-    rgb(0, 113, 93) 100%
+    var(--yellow) 0%,
+    var(--tp-theme-1) 100%
   );
   z-index: 1;
 }
