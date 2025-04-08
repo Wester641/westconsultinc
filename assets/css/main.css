@@ -129,18 +129,20 @@ li,
   /**
   @color declaration
   */
-  --tp-common-white: #fff;
-  --tp-common-black: #000;
-  --tp-heading-primary: #132a3b;
+  --tp-common-white: #ffffff;
+  --tp-common-black: #000000;
+  --tp-heading-primary: #0e1d2b;        
   --tp-grey-1: #e6edf4;
-  --tp-grey-2: #132a3b;
-  --tp-grey-3: #dce5ed;
-  --tp-text-body: #5a6b7a;
-  --tp-theme-1: #132a3b;
-  --tp-theme-2: #5ca8d9;
-  --tp-theme-3: #132a3b;
-  --tp-theme-4: #132a3bd3;
-  --tp-border-primary: #132a3b;
+  --tp-grey-2: #1a2d3e;                
+  --tp-grey-3: #cfdbe5;                
+  --tp-text-body: #4b6273;           
+  --tp-theme-1: #007acc;            
+  --tp-theme-2: #5ca8d9;            
+  --tp-theme-3: #005f99;             
+  --tp-theme-4: #007accd3;           
+  --tp-border-primary: #007acc;      
+  --yellow: #f7d100;
+  
 
   /* Blue scheme */
   /* --tp-common-white: #fff;
@@ -571,7 +573,7 @@ div.demo img {
 }
 
 [tp-theme="tp-theme-dark"] .demo {
-  color: yellow;
+  color: #ffffff;
 }
 
 /* dropcap */
@@ -1252,7 +1254,7 @@ div.demo img {
   z-index: -1;
 }
 .tp-btn-text:hover {
-  color: #fbd45b;
+  color: var(--yellow);
 }
 
 .btn-link-sm {
@@ -1272,7 +1274,7 @@ div.demo img {
   color: var(--tp-common-white);
 }
 .btn-hover:hover {
-  background-color: #fbd45b;
+  background-color: #f9a23b;
 }
 .btn-link-sm:hover::before {
   transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
@@ -2357,7 +2359,7 @@ div.demo img {
   content: "\f107";
   font-family: "Font Awesome 5 Pro";
   transition: 0.4s;
-  background: #fbd45b;
+  background: #f9a23b;
   line-height: 30px;
   text-align: center;
   border-radius: 30px;
@@ -3052,7 +3054,7 @@ button:focus:not(:focus-visible) {
   z-index: 50;
 }
 .tp-header__menu ul li:hover a {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-header-btn a {
@@ -3183,10 +3185,10 @@ button:focus:not(:focus-visible) {
   padding: 0;
 }
 .tp-header__menu ul li .sub-menu li a:hover {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 .active {
-  color: #fbd45b !important;
+  color: #f9a23b !important;
 }
 .tp-header__menu ul li .sub-menu li:not(:last-child) {
   margin-bottom: 10px;
@@ -3378,7 +3380,7 @@ button:focus:not(:focus-visible) {
   color: #98a8a5;
 }
 .white-text a i {
-  color: #fbd45b !important;
+  color: #f9a23b !important;
 }
 
 /*----------------------------------------*/
@@ -3389,7 +3391,7 @@ button:focus:not(:focus-visible) {
   z-index: 999999;
 }
 .tp-header-two__menu ul li:hover a {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-header-two-btn a {
@@ -3526,7 +3528,7 @@ button:focus:not(:focus-visible) {
   padding: 0;
 }
 .tp-header-two__menu ul li .sub-menu li a:hover {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 .tp-header-two__menu ul li .sub-menu li:not(:last-child) {
   margin-bottom: 10px;
@@ -3717,7 +3719,7 @@ button:focus:not(:focus-visible) {
   color: #98a8a5;
 }
 .white-text a i {
-  color: #fbd45b !important;
+  color: #f9a23b !important;
 }
 
 /*----------------------------------------*/
@@ -3774,7 +3776,7 @@ button:focus:not(:focus-visible) {
 .tpheader-3__smcontact-list .sm-clist__icon i {
   height: 50px;
   width: 50px;
-  background: #fbd45b;
+  background: #f9a23b;
   color: var(--tp-heading-primary);
   line-height: 50px;
   text-align: center;
@@ -4543,7 +4545,7 @@ button:focus:not(:focus-visible) {
   color: var(--tp-theme-3);
 }
 .sidebar__menu a {
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 0px 20px;
   height: 60px;
   line-height: 60px;
@@ -5188,7 +5190,7 @@ button:focus:not(:focus-visible) {
   }
 }
 .tp-slider__nav button:hover {
-  background: #fbd45b;
+  background: #f9a23b;
 }
 
 .swiper-slide-active .tp-slider__angle-shape {
@@ -5372,9 +5374,9 @@ button:focus:not(:focus-visible) {
   }
 }
 .tp-slider-2__nav .hero-button-next-2:hover {
-  border-color: #fbd45b;
+  border-color: #f9a23b;
   color: var(--tp-heading-primary);
-  background: #fbd45b;
+  background: #f9a23b;
 }
 .tp-slider-2__nav .hero-button-prev-2 {
   width: 60px;
@@ -5397,9 +5399,9 @@ button:focus:not(:focus-visible) {
   font-size: 14px;
 }
 .tp-slider-2__nav .hero-button-prev-2:hover {
-  border-color: #fbd45b;
+  border-color: #f9a23b;
   color: var(--tp-heading-primary);
-  background: #fbd45b;
+  background: #f9a23b;
 }
 
 .swiper-slide.swiper-slide-active .tp-slider-2__bg {
@@ -5433,7 +5435,7 @@ button:focus:not(:focus-visible) {
   content: "";
   height: 502px;
   width: 142px;
-  background: #fbd45b;
+  background: #f9a23b;
   bottom: -99px;
   left: -21px;
   transform: rotate(-38deg);
@@ -5522,9 +5524,9 @@ button:focus:not(:focus-visible) {
 }
 
 .slider-arrow-style button:hover {
-  background-color: #fbd45b;
+  background-color: #f9a23b;
   color: var(--tp-common-white);
-  border-color: #fbd45b;
+  border-color: #f9a23b;
 }
 
 .swiper-slide.swiper-slide-active .tp-slider-3__bg {
@@ -6630,7 +6632,7 @@ button:focus:not(:focus-visible) {
   font-size: 110px;
   font-weight: 500;
   color: transparent;
-  -webkit-text-stroke: 1px #fbd45b;
+  -webkit-text-stroke: 1px #f9a23b;
   opacity: 0.5;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -6681,7 +6683,7 @@ button:focus:not(:focus-visible) {
 .tp-features-3__item::after {
   position: absolute;
   content: "";
-  background: #fbd45b;
+  background: #f9a23b;
   width: 140px;
   height: 220px;
   top: -100%;
@@ -6706,7 +6708,7 @@ button:focus:not(:focus-visible) {
   visibility: visible;
 }
 .tp-features-3__item:hover h3 {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 
 .tp-feature-3__bg-amg {
@@ -6836,7 +6838,7 @@ button:focus:not(:focus-visible) {
   transition: all 0.4s ease-out 0s;
 }
 .tpservices__icon a::before {
-  background: #fbd45b;
+  background: #f9a23b;
   color: var(--tp-heading-primary);
   top: 0;
   left: 0;
@@ -6949,7 +6951,7 @@ button:focus:not(:focus-visible) {
   height: 1px;
   width: 0px;
   opacity: 0;
-  background-color: #fbd45b;
+  background-color: #f9a23b;
   transition: 0.3s linear;
   z-index: 2;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -7183,7 +7185,7 @@ button:focus:not(:focus-visible) {
 .tp-services-3__icon a {
   height: 78px;
   width: 78px;
-  background: #fbd45b;
+  background: #f9a23b;
   display: inline-block;
   text-align: center;
   line-height: 85px;
@@ -7224,7 +7226,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   right: 0;
   top: -40px;
-  background: #fbd45b;
+  background: #f9a23b;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -7619,7 +7621,7 @@ button:focus:not(:focus-visible) {
 }
 .tpchoose-3:hover .tpchoose-3__icon {
   color: var(--tp-heading-primary);
-  background: #fbd45b;
+  background: #f9a23b;
   border-color: var(--tp-common-white);
 }
 .tpchoose-3:hover .tpchoose-title {
@@ -8126,7 +8128,7 @@ button:focus:not(:focus-visible) {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.06);
   padding: 35px;
-  border-top: 4px solid #fbd45b;
+  border-top: 4px solid #f9a23b;
 }
 .tp-testimonial-3__icon {
   position: absolute;
@@ -8134,7 +8136,7 @@ button:focus:not(:focus-visible) {
   left: 0;
   right: 0;
   text-align: center;
-  background: #fbd45b;
+  background: #f9a23b;
   display: inline-block;
   height: 50px;
   width: 50px;
@@ -8581,7 +8583,7 @@ button:focus:not(:focus-visible) {
   transition-delay: 300ms;
 }
 .tpproject:hover .tpproject__thumb .project-icon:hover {
-  background: #fbd45b;
+  background: #f9a23b;
 }
 
 .tpproject:hover .tpproject__content {
@@ -9104,7 +9106,7 @@ button:focus:not(:focus-visible) {
   }
 }
 .team-detials__social .icon i:hover {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 
 .comment-form__input-box {
@@ -10732,7 +10734,7 @@ button:focus:not(:focus-visible) {
 }
 .tpblog-3__img .date {
   text-align: center;
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 7px 20px;
   font-size: 14px;
   font-weight: 700;
@@ -10800,7 +10802,7 @@ button:focus:not(:focus-visible) {
   left: 30px;
   bottom: 145px;
   text-align: center;
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 7px 20px;
   font-size: 14px;
   font-weight: 700;
@@ -10824,7 +10826,7 @@ button:focus:not(:focus-visible) {
 .tpblog-3__meta .date a {
   font-size: 14px;
   color: var(--tp-heading-primary);
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 11px 20px;
   line-height: 0;
   font-weight: bold;
@@ -10906,7 +10908,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   right: 0;
   bottom: 0;
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 10px 20px;
   font-size: 14px;
   color: var(--tp-heading-primary);
@@ -11587,7 +11589,7 @@ button:focus:not(:focus-visible) {
   position: absolute;
   right: 0;
   bottom: 0;
-  background: #fbd45b;
+  background: #f9a23b;
   padding: 50px 55px;
 }
 @media (max-width: 767px) {
@@ -11641,7 +11643,7 @@ button:focus:not(:focus-visible) {
   color: var(--tp-heading-primary);
 }
 .sv-details-category-list ul li.active a {
-  background-image: linear-gradient(to right, var(--tp-theme-1), #fbd45b);
+  background-image: linear-gradient(to right, var(--tp-theme-1), #f9a23b);
   color: var(--tp-common-white);
 }
 .sv-details-category-list ul li.active a i {
@@ -11652,7 +11654,7 @@ button:focus:not(:focus-visible) {
   color: #fff;
 }
 .sv-details-category-list ul li:hover a {
-  background-image: linear-gradient(to right, var(--tp-theme-1), #fbd45b);
+  background-image: linear-gradient(to right, var(--tp-theme-1), #f9a23b);
   color: var(--tp-common-white);
 }
 .sv-details-category-list ul li:hover a i {
@@ -11678,7 +11680,7 @@ button:focus:not(:focus-visible) {
   list-style: none;
 }
 .help-lists ul li i {
-  color: #fbd45b;
+  color: #f9a23b;
   margin-right: 15px;
 }
 .help-lists ul li span {
@@ -11728,7 +11730,7 @@ button:focus:not(:focus-visible) {
 }
 .insurance-details__need-help-icon span {
   transition: all 500ms ease;
-  background: #fbd45b;
+  background: #f9a23b;
   width: 90px;
   height: 90px;
   line-height: 100px;
@@ -11876,7 +11878,7 @@ button:focus:not(:focus-visible) {
   font-size: 18px;
 }
 .contact__info ul li a:hover {
-  color: #fbd45b;
+  color: #f9a23b;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -11892,7 +11894,7 @@ button:focus:not(:focus-visible) {
   }
 }
 .contact__form {
-  border-bottom: 3px solid #fbd45b;
+  border-bottom: 3px solid #f9a23b;
 }
 .contact__input {
   position: relative;
@@ -11990,7 +11992,7 @@ button:focus:not(:focus-visible) {
 }
 .tp-form-title {
   font-size: 24px;
-  color: #fbd45b;
+  color: #f9a23b;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
