@@ -141,7 +141,7 @@ li,
   --tp-theme-3: #005f99;             
   --tp-theme-4: #007accd3;           
   --tp-border-primary: #007acc;      
-  --yellow: #f7d100;
+  --yellow: #f9a23b;
   
 
   /* Blue scheme */
@@ -2243,14 +2243,14 @@ div.demo img {
   text-transform: uppercase;
 }
 .breadcrumb__list span a {
-  color: #fbd663;
+  color: var(--yellow);
   font-size: 14px;
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
 }
 .breadcrumb__list span a:hover {
-  color: var(--tp-theme-primary);
+  color: var(--yellow);
 }
 .breadcrumb__bg {
   background-size: cover;
