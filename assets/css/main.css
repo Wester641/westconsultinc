@@ -12064,7 +12064,6 @@ button:focus:not(:focus-visible) {
 
 .custom-brand-carousel .swiper-slide img:hover {
   filter: grayscale(0%);
-<<<<<<< HEAD
 }
 
 .warning_white {
@@ -12084,6 +12083,20 @@ color: black;
   display: flex;
   gap: 15px;
   margin-bottom: 15px;
-=======
->>>>>>> 109982ce693d67f7d734611d35dec44b1ac8e820
+}
+
+.pp_block{
+  margin-bottom: 15px;
+  
+}
+.pp_content{
+  margin-bottom: 15px;
+  
+}
+.privacy-policy_title{
+  color: var(--yellow);
+  font-size: 24px;
+}
+ul li {
+  list-style: none;
 }
