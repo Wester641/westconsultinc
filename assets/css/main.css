@@ -12064,6 +12064,7 @@ button:focus:not(:focus-visible) {
 
 .custom-brand-carousel .swiper-slide img:hover {
   filter: grayscale(0%);
+<<<<<<< HEAD
 }
 
 .warning_white {
@@ -12083,4 +12084,6 @@ color: black;
   display: flex;
   gap: 15px;
   margin-bottom: 15px;
+=======
+>>>>>>> 109982ce693d67f7d734611d35dec44b1ac8e820
 }
