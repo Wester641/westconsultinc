@@ -12030,3 +12030,57 @@ button:focus:not(:focus-visible) {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+.custom-brand-carousel {
+  width: 100%;
+  padding: 40px 15px;
+  background: #f9f9f9;
+}
+
+.custom-brand-carousel .swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overflow{
+  overflow: hidden;
+}
+
+.custom-brand-carousel .swiper-slide img {
+  max-width: 160px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  
+}
+.margin-auto{
+  margin: auto 0;
+}
+
+
+.custom-brand-carousel .swiper-slide img:hover {
+  filter: grayscale(0%);
+}
+
+.warning_white {
+color: white;
+}
+.warning_black {
+color: black;
+}
+.privacy-policy{
+  color: var(--yellow);
+}
+.warning_box{
+  width: 15px;
+  height: 15px;
+}
+.warning_container{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
