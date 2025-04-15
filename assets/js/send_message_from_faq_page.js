@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       email: form.querySelector('input[type="email"]').value,
       phone: form.querySelector('input[placeholder="Phone number"]').value,
       comments: form.querySelector('textarea[placeholder="Write a message"]').value,
-      checkbox: form.querySelector('input[type="radio"]').checked,
+      checkbox: form.querySelector('input[type="checkbox"]').checked,
     };
 
     console.log(dataFromFaqPage);
